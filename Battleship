@@ -149,11 +149,9 @@ public class Battleship
     public void stats()
     {
         System.out.println("\nHope you had fun! Here are your stats for"
-                + " this round of play:");
-        System.out.println("You played " + games + " game(s).");
-        System.out.println("Throughout the game(s)you hit " + hits + " of " + (games*4)
-                + " possible targets.");
-        System.out.println("Better luck next time!");
+                + " this round of play:\n" + "You played " + games + " game(s).\n"
+                +"Throughout the game(s)you hit " + hits + " of " + (games*4)
+                + " possible targets.\n" + "Better luck next time!");
     }
     
     //Resets the hits, misses, and record of games played
